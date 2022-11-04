@@ -1,0 +1,38 @@
+{
+  "name": "hapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "base-64": "^1.0.0",
+    "blueimp-md5": "^2.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "md5": "^2.3.0",
+    "mime-db": "^1.52.0",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "now": "^21.0.1",
+    "randomstring": "^1.2.2",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
